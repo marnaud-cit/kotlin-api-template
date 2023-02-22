@@ -19,12 +19,12 @@ se encontra configurada a parte de conexão em banco , criação de migrations e
 
 1. Clonar o repositório:
     ``` sh
-    git clone git@github.com:grupoboticario/demaba-oms-ims-industry-stock-sap-integrator.git
+    git clone git@github.com:marnaud-cit/kotlin-api-template.git
     ```
 
 2. Navegue até o diretório da aplicação
     ``` sh
-    cd {path-do-projeto-clonado}/app
+    cd {path-do-projeto-clonado}
     ```
 3. Execute o docker
     * Navegue até o diretório do docker:
@@ -35,7 +35,10 @@ se encontra configurada a parte de conexão em banco , criação de migrations e
         ``` sh
         docker-compose -f docker-compose-dev.yml up -d
         ```
-      _OBS: O docker-compose é responsável por criar/inicializar os serviços do Postgres, AWS, RabbitMQ, Zookeeper e schemaregistry_.
+      _OBS: tambem é possivel se manter na pasta raiz e usar 
+      ``` sh
+        sh start-containers.sh 
+        ```
 
 ### Testes
 
