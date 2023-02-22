@@ -1,0 +1,18 @@
+spring:
+  main:
+    banner-mode: OFF
+  output:
+    ansi:
+      enabled: NEVER
+  datasource:
+    username: boms
+    password: boms
+    url: jdbc:postgresql://localhost:5432/api-db
+  flyway:
+    enabled: true
+  jpa:
+    show-sql: true
+springdoc:
+  packagesToScan: "com.example.demo.webapi"
+
+
