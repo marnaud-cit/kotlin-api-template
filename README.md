@@ -23,8 +23,8 @@ se encontra configurada a parte de conexão em banco , criação de migrations e
     ```
 
 2. Navegue até o diretório da aplicação
-    ``` sh
-    cd {path-do-projeto-clonado}
+   ``` sh
+    cd {path-do-projeto-clonado}/app
     ```
 3. Execute o docker
     * Navegue até o diretório do docker:
@@ -35,7 +35,7 @@ se encontra configurada a parte de conexão em banco , criação de migrations e
         ``` sh
         docker-compose -f docker-compose-dev.yml up -d
         ```
-      _OBS: tambem é possivel se manter na pasta raiz e usar 
+      _OBS: tambem é possivel se manter na pasta app e usar 
       ``` sh
         sh start-containers.sh 
         ```
