@@ -1,8 +1,5 @@
 # Kotlin API Template
 
-O sistema **OMS Industry Stock SAP Integrator** do IMS é responsável por integrar as informações de estoques da indústria do Grupo Boticário.<br>
-Atualmente, essas atualizações são provenientes do SAP ECC e SAP S4/HANA.
-
 ## Objetivo
 
 Esse template foi desenvolvido com o objetivo de permitir o treinamento de criações de api com spring boot + kotlin,nele ja
