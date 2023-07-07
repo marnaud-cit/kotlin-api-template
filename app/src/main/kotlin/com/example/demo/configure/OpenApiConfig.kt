@@ -1,3 +1,4 @@
+/* This Kotlin class configures an OpenAPI for a Spring application with a title of "my api". */
 package com.example.demo.configure
 
 import io.swagger.v3.oas.models.OpenAPI
