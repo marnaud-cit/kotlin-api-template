@@ -37,7 +37,7 @@ se encontra configurada a parte de conexão em banco , criação de migrations e
         ```
       _OBS: tambem é possivel se manter na pasta app e usar 
       ``` sh
-        sh start-containers.sh 
+        sh start-containers.sh
         ```
 
 ### Testes
@@ -49,3 +49,4 @@ se encontra configurada a parte de conexão em banco , criação de migrations e
     ``` sh
     ./gradlew bootRun
     ```
+5. Ao inicializar o projeto será a url de [swagger](http://localhost:8080/swagger-ui/index.html) local ficar disponivel.
